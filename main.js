@@ -1,10 +1,17 @@
 'use strict';
 
-const btnEl = document.querySelector('.btn');
+const buttonElement = document.querySelector('.js-btn try'); // boton de prueba
+const hintElement = document.querySelector('.js-hint');      // pistas
+const triesElement = document.querySelector('.js-tries');    // nto de intentos
 
-const handleBtnClick = event => {
-  console.log(event.currentTarget);
-  console.log(event.target);
-};
 
-btnEl.addEventListener('click', handleBtnClick);
+function getRandomNumber(max) {
+return Math.ceil(Math.random() * max);
+}
+
+const RandomNumber = getRandomNumber(100)
+console.log(RandomNumber)
+
+ 
+
+

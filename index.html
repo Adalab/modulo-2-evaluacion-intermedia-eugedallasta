@@ -1,26 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./main.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./main.css" />
     <title>Evaluacion Intermedia M2</title>
-</head>
-<body>
+  </head>
+  <body>
 
-<button class="btn">
-  <span class="btn__star">
-    &#9733;
-  </span>
-  <span class="btn__text">
-    Rate
-  </span>
-</button>
+    <h1 class="h1">Adivina el número</h1>
 
+    <h2 class="h2">Introduce aquí el número:</h2>
 
+    <form action="">
+      <label for="userNumber"></label>
+      <input class="userNumber" name="userNumber" type="text" placeholder="" value="" />
+      <button class="btn-try js-btn try" type="submit">Prueba</button>
+    </form>
 
+    <p class="p-write js-hint">Pista: escribe al número y dale prueba</p>
 
+    <p class="p-write js-tries">Número de intentos: <span class="tries">0</span></p>
+  
 
-   <script src="./main.js"></script> 
-</body>
+    <script src="./main.js"></script>
+  </body>
 </html>

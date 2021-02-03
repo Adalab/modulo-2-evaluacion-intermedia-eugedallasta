@@ -10,18 +10,17 @@
 
     <h1 class="h1">Adivina el número</h1>
 
-    <h2 class="h2">Introduce aquí el número:</h2>
+    <form class="form">
+      <label for="usernumber"> Introduce aquí el número:</label>
 
-    <form action="">
-      <label for="userNumber"></label>
-      <input class="userNumber" name="userNumber" type="text" placeholder="" value="" />
-      <button class="btn-try js-btn try" type="submit">Prueba</button>
+      <input type="number" class="js-user-number" id="" usernumber />
+
+      <input type="button" class="button js-button" value="Prueba" />
+
+      <p class="js-tip">Pista: Escribe el número y dale a prueba</p>
+
+      <input type="text" class="js-counter" value="Números de intentos:0" />
     </form>
-
-    <p class="p-write js-hint">Pista: escribe al número y dale prueba</p>
-
-    <p class="p-write js-tries">Número de intentos: <span class="tries">0</span></p>
-  
 
     <script src="./main.js"></script>
   </body>
